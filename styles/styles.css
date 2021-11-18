@@ -5,105 +5,131 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .top-section{
-    padding: 50px 105px;
     background: url("../image/Fon.png");
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 180px;
+    padding: 48px 105px 0;
 }
-
 .menu{
     display: flex;
     justify-content: right;
     color: white;
     align-items: center;
     list-style-type: none;
-    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    Font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
 }
 .item-attractions{
-    margin-right: 30px;
+    margin-right: 24px;
 }
 .item-night{
-    margin-left: 48px;
-    margin-right: 25px;
+    margin-left: 47px;
+    margin-right: 24px;
 }
 h1 {
-    margin: 200px 0 100px;
+    margin: 200px 179px 100px;
+    padding: 0 105px;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     Font-size: 50px;
     font-weight: 500;
     font-style: normal;
-    line-height: 58px 59px;
+    line-height: 58px;
 }
-
 .search-form{
     display: flex;
     justify-content: space-between;
-    height: 65px;
+    align-content: center;
+    margin: 150px 282px 0px;
+    height: 64px;
     border: #ffffff;
+    border-radius: 8px;
     background-color: #ffffff;
+    position: relative;
 }
 .text{
     color: #ffffff;
 }
-.choose{
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-end;
-    margin: 0 710px 24px 20px;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    Font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
+.city{
+    width: 467px;
+    height: 64px;
+    border: # 1px;
+    border-radius: 8px;
+    position: relative;
 }
-
-.form-1{
-    display: flex;
-    flex-grow: 1 ;
-    width: 465px;
-    border: #ffffff 1px;
-}
-.form-2 {
+.day {
     width: 260px;
     border: #ffffff 1px;
+    position: relative;
 }
-.form-3 {
-    width: 465px;
-    border: #ffffff 1px;
+.room {
+    width: 314px;
+    height: 64px;
+    /*border: #ffffff 1px;*/
+    position: relative;
 }
-.indent{
+.text-1 {
+    position: absolute;
+    top: -59px;
+    color: #ffffff;
+    padding-top: 10px;
     padding-left: 25px;
     font-family: 'Roboto', sans-serif;
     Font-size: 18px;
     font-weight: 400;
     font-style: normal;
 }
+.indent{
+    height: 64px;
+    font-family: 'Roboto', sans-serif;
+    Font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    border: none;
+    padding-left: 25px;
+}
 .submit{
-    width: 190px;
+    width: 16%;
     background-color: #3077c6;
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    Font-size: 24px;
+    font-weight: 400;
+    border-radius: 8px;
+    font-style: normal;
 }
 .googleappstore{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 135px 585px 120px;
+    padding: 118px 754px 120px;
 }
 h2{
+    margin-left: 467px;
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     Font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
+    font-style: normal;
+}
+.text-center {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    Font-size: 40px;
+    font-weight: 500;
     font-style: normal;
 }
 .row{
@@ -129,7 +155,7 @@ h2{
     height: 4px;
     background-color: #ffe61b;
     border: 0;
-    margin: 0 auto 110px;
+    margin: 0 auto 80px;
 }
 .icon-wrap{
     display: inline-flex;
@@ -142,17 +168,29 @@ h2{
 .footer{
     background: #10367C;
     color: #ffffff;
-    padding:120px 270px 120px 105px;
+    padding:110px 270px 120px 105px;
 }
-
-
 .footer-nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    line-height: 44px;
+    line-height: 47px;
     list-style-type: none;
-
+    padding-right: 161px;
+}
+.menu-footer-1{
+    width: 33%;
+    padding-left: 178px;
+    list-style-type: none;
+}
+.menu-footer-2{
+    width: 33%;
+    padding-left: 177px;
+    list-style-type: none;
+}
+.menu-footer-3{
+    width: 33%;
+    padding-left: 178px;
+    list-style-type: none;
 }
 .column-head {
     font-family: 'Roboto', sans-serif;
@@ -171,13 +209,15 @@ h2{
     text-decoration: none;
     list-style-type: none;
 }
-.menu-footer{
-    list-style-type: none;
-}
 .rectangle {
-    padding-top: 65px;
+    padding-top: 47px;
+    padding-left: 178px;
 }
 .rectangle-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    Font-size: 14px;
     color: #ffffff;
     text-decoration: none;
 }
